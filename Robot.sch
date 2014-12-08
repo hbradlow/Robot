@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3367,7 +3367,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="U$1" library="NordicSemi" deviceset="NRF51822" device=""/>
-<part name="U$2" library="NordicSemi" deviceset="ANTENA-2450AT" device=""/>
+<part name="ANT1" library="NordicSemi" deviceset="ANTENA-2450AT" device=""/>
 <part name="U$3" library="NordicSemi" deviceset="CRYSTAL2.5X2" device=""/>
 <part name="U1" library="SparkFun-DigitalIC" deviceset="LSM9DS0" device=""/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -3472,7 +3472,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="FRAME1" gate="G$1" x="-17.78" y="-5.08"/>
 <instance part="FRAME1" gate="G$2" x="129.54" y="-5.08"/>
 <instance part="U$1" gate="G$1" x="20.32" y="83.82"/>
-<instance part="U$2" gate="G$1" x="116.84" y="73.66"/>
+<instance part="ANT1" gate="G$1" x="116.84" y="73.66"/>
 <instance part="U$3" gate="G$1" x="60.96" y="162.56" rot="R270"/>
 <instance part="U1" gate="G$1" x="193.04" y="66.04"/>
 <instance part="GND1" gate="1" x="175.26" y="38.1"/>
@@ -4150,7 +4150,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="121.92" y1="99.06" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="91.44" x2="106.68" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="91.44" x2="106.68" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="FP"/>
+<pinref part="ANT1" gate="G$1" pin="FP"/>
 <wire x1="106.68" y1="73.66" x2="116.84" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
